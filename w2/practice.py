@@ -29,7 +29,7 @@ x = 0
 if x == 1:
   print("hello")
 
-  x = [1, 2, 3, 4, 5, 6]
-for i in x:
-  if (i % 2):
-    print(i);
+#  x = [1, 2, 3, 4, 5, 6]
+#for i in x:
+#  if (i % 2):
+#    print(i);
