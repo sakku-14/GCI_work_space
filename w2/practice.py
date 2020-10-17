@@ -27,9 +27,23 @@ print(set_ex)
 
 x = 0
 if x == 1:
-  print("hello")
+	print("hello")
 
-#  x = [1, 2, 3, 4, 5, 6]
-#for i in x:
-#  if (i % 2):
-#    print(i);
+x = [1, 2, 3, 4, 5, 6]
+for i in x:
+	if (i % 2):
+		print(i);
+
+def check_prime(num):
+	index = 2
+	if (num == 1):
+		print("num = 1\n this is not primenumber.")
+		return 
+	for i in range(num - 3):
+		if (num%(i+2)==0):
+			print(str(num) + " is not prime number.")
+			return
+	print(str(num) + " is prime number.")
+
+check_prime(5)
+check_prime(12)
